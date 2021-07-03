@@ -27,7 +27,7 @@ public class SampleTest1 {
 		//WebElement logo=wd.findElement(By.xpath("/html/body/div[1]/div[2]/div/a/img"));
 		
 		Thread.sleep(2000);
-//webdriver, webelement,takescreenshot,outputtype
+//webdriver, webelement,takescreenshot,outputtype//
 		
 		File src=((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
 FileHandler.copy(src, new File("C:\\vcentryWorkspace\\batch167\\jenkissampleproject\\screenshot\\jenkin.jpg"));
